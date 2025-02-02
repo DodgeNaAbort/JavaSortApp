@@ -9,6 +9,10 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         CommandLine cmd = parseCommandLine(args);
+        if (cmd == null) {
+            System.err.println("Ошибка: Не удалось совершить парсинг аргументов");
+            return;
+        }
 
         FileProcessor fileProcessor = new FileProcessor();
         StatisticsPrinter statisticsPrinter = new StatisticsPrinter();
