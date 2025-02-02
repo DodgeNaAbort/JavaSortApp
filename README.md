@@ -29,16 +29,16 @@
     ```bash
     gradle build
     ```
-    *   После успешной сборки в папке `build/libs` будет создан файл `название_проекта.jar`.
+    *   После успешной сборки в папке `build/libs` будет создан файл `JavaSortApp.jar`.
 
 4.  **Запустите программу:**
     *   Используйте следующую команду для запуска программы:
     ```bash
-    java -jar build/libs/название_проекта.jar [аргументы]
+    java -jar build/libs/JavaSortApp.jar [аргументы]
     ```
     *   Пример запуска с аргументами:
     ```bash
-    java -jar build/libs/название_проекта.jar file1.txt file2.txt -o output/ -p result_ -a -s
+    java -jar build/libs/JavaSortApp.jar file1.txt file2.txt -o output/ -p result_ -a -s
     ```
 
 ## Аргументы командной строки
